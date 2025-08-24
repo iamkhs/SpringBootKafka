@@ -1,7 +1,7 @@
 package me.iamkhs.springbootkafka.controller;
 
 import lombok.RequiredArgsConstructor;
-import me.iamkhs.springbootkafka.dto.UserRequest;
+import me.iamkhs.springbootkafka.payload.UserRequest;
 import me.iamkhs.springbootkafka.kafka.KafkaProducer;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -9,9 +9,9 @@ import org.springframework.kafka.config.TopicBuilder;
 public class KafkaTopicConfig {
 
     @Bean
-    public NewTopic myTopic() {
+    public NewTopic jsonTopic() {
         return TopicBuilder
-                .name("javaguide")
+                .name("user_requests_json")
                 .build();
     }
 }
